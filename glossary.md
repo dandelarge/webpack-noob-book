@@ -11,6 +11,8 @@
 
 ## Module
 - It's something that delimites the scope of a piece of software
-- A logical (and arbitrary) grouping of functionality 
+- A logical (and arbitrary) grouping of functionality
 - or, just an object with things inside
 
+## Technique
+- A refined way to do something

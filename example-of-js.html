@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Example of js</title>
+  </head>
+  <body>
+    <h1>Ensar's Log</h1>
+      <ul id="logList">
+        <li class="logEntry">
+          <h2>Day 1</h2>
+          <p>Ensar's log day one</p>
+        </li>
+      </ul>
+    <button id="addButton"> Add new Entry</button>
+  </body>
+  <script>
+    var logList = document.getElementById('logList');
+
+    var button = document.getElementById('addButton');
+
+    button.addEventListener('click', function(event) {
+
+
+      const newBlogEntry = document.createElement('li');
+      newBlogEntry.className = 'logEntry';
+
+      const newBlogTitle = document.createElement('h2');
+      newBlogTitle.textContent = 'Day 2';
+
+      const newBlogText = document.createElement('p');
+      newBlogText.textContent = 'Ensar\'s log day two';
+
+      newBlogEntry.appendChild(newBlogTitle);
+      newBlogEntry.appendChild(newBlogText);
+      logList.appendChild(newBlogEntry);
+    });
+
+  </script>
+</html>
