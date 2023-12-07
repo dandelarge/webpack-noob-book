@@ -1,4 +1,6 @@
-const express = require('express');
+import express from 'express';
+import printFn from './lib.js';
+
 const app = express();
 
 app.get('/', (req, res) => {
@@ -6,6 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/:name', (req, res) => {
+  printFn(req.params.name);
   res.send(`Hello ${req.params.name}`);
 });
 
