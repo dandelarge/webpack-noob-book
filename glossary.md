@@ -16,3 +16,6 @@
 
 ## Technique
 - A refined way to do something
+
+## Concatenation 
+- A technique to put things next to each other or together

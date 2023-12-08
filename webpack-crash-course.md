@@ -1,5 +1,5 @@
 # The Bundling book
-This document is intended to be a compilation of knowledge for developers that want to understand how bundlers work.
+Th,is document is intended to be a compilation of knowledge for developers that want to understand how bundlers work.
 
 Contributions are always welcome.
 
