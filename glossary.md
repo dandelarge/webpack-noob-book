@@ -17,5 +17,20 @@
 ## Technique
 - A refined way to do something
 
-## Concatenation 
+## Concatenation
 - A technique to put things next to each other or together
+
+## Architecture
+- Designing and building something
+
+## Pattern
+- something that repeats in a pretictable way
+
+## Design Pattern
+- It's a recepe to solve common/repeating problems
+
+## Obfuscation
+- Making something more complicated than it needs to be.
+
+## Hashing
+- giving a unique identifier to something

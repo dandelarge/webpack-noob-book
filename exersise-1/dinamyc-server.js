@@ -3,7 +3,7 @@ import printFn from './lib.js';
 
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
   res.send('Hello world!');
 });
 
