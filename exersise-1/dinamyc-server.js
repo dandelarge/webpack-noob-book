@@ -12,6 +12,8 @@ app.get('/:name', (req, res) => {
   res.send(`Hello ${req.params.name}`);
 });
 
+app.post('/songs/:name', (req, res) => {});
+
 app.listen(420, () => {
   console.log('Server started at http://localhost:420');
 });

@@ -47,7 +47,7 @@ First we explore the techniques in an abstract way. Then we go into specifics wi
 
 #### 9.2 What if we put all together in one single pipeline?
 
-#### 9.3 Tusk & Gulp
+#### 9.3 Grunt & Gulp
 
 #### 9.4 The concept of bundling is born
 
@@ -57,7 +57,7 @@ First we explore the techniques in an abstract way. Then we go into specifics wi
 
 #### 10.2 Webpack
 
-## EcmaScript Modules vs CommonJS
+## EcmaScript Modules vs CommonJS vs UMD vs AMD
 
 What's the difference between require and import? Why do we have more than one way to do modules?
 
