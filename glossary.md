@@ -34,3 +34,37 @@
 
 ## Hashing
 - giving a unique identifier to something
+
+## Compilation
+- Translate from human readable language to machine language
+
+## Scripting Language or Interpreted language
+- Languages that are run by an interpreter; They do not have a compilation step
+
+## Transpilation
+- Translating a programming language into an interpreted one
+    IE:
+    - TypeScript
+    - JSX -> javascript
+
+## Linter
+- A tool that parses the code and finds errors/ potential bugs. like:
+  - invalid sytax
+  - memory leaks
+  - unused / unreachable code
+
+## Parsing
+- Split code in small pieces and check/validate them
+
+## to parse
+- examine something in an analytical way. To destruct a concept into simple axyoms
+
+## axyon
+- fundamental piece of information that is assumed to be true
+
+
+
+
+
+
+
