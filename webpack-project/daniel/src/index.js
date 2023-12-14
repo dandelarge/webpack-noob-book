@@ -1,1 +1,3 @@
-console.log('index.js');
+import sayHello from './sayhi';
+
+console.log(sayHello('Daniel'));
