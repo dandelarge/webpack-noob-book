@@ -7,10 +7,10 @@
     - We have a base index.html
 - We made a scaffolding for the build step.
     - we can bundle our ./src folder into a ./public/bundle.js file
+- We added react
+- We combined transpilation with bundling in one step.
 
 ### What do we need to do still?
-- We need to add transpilation so we can use react
-- btw we need react
 - we haven't done any optimizations on the production code yet. (no minimization, etc...)
 
 ## Scaffolding webpack
