@@ -1,10 +1,10 @@
 const path = require("path");
-
+const isDev = process.env.NODE_ENV === "development";
 module.exports = {
-  mode: "production",
+  mode: isDev ? "development" : "production",
   entry: "./dist/index.js",
   output: {
-    filename: "bundle.[contenthash].js",
+    filename: isDev ? "bundle.js" : "bundle.[contenthash].js",
     path: path.resolve(__dirname, "public"),
   },
   module: {
@@ -22,5 +22,9 @@ module.exports = {
   },
   optimization: {
     minimize: true,
+  },
+  devServer: {
+    static: path.resolve(__dirname, "public"),
+    port: 420,
   },
 };
