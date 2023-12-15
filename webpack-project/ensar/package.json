@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "transpile": "babel src --out-dir dist"
+    "transpile": "babel src --out-dir dist",
+    "dev": "NODE_ENV=development webpack serve" 
   },
   "author": "ensar",
   "license": "ISC",

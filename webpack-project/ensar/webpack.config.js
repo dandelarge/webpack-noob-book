@@ -2,7 +2,7 @@ const path = require("path");
 const isDev = process.env.NODE_ENV === "development";
 module.exports = {
   mode: isDev ? "development" : "production",
-  entry: "./dist/index.js",
+  entry: "./src/index.js",
   output: {
     filename: isDev ? "bundle.js" : "bundle.[contenthash].js",
     path: path.resolve(__dirname, "public"),
