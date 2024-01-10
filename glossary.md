@@ -62,7 +62,11 @@
 ## axyon
 - fundamental piece of information that is assumed to be true
 
-
+## Polyfill
+- bits of funtcionality that emulate or replace a missing piece of a system that exists in other kind of systems
+    IE: 
+    - fs library from nodejs is not available in the browser, 
+      but you can add a polyfill of it and call fs like if existed.
 
 
 

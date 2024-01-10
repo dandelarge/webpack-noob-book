@@ -1,0 +1,21 @@
+.cowImg {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.cowImg:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+}

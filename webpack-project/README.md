@@ -8,7 +8,7 @@ It prints cowsay
 https://github.com/piuccio/cowsay
 
 when you go to / the cow should print in the screen saying hello world
-There most be an input, The input changes what the cow says
+There must be an input, The input changes what the cow says
 
 ## Rules
 - We are building the thing from scratch

@@ -16,11 +16,25 @@ module.exports = {
     static: path.resolve(__dirname, 'public'),
     port: 420
   },
+  resolve: {
+    fallback: {
+      path: require.resolve('path-browserify'),
+      os: require.resolve('os-browserify/browser'),
+    }
+  },  
   module: {
     rules: [
       {
         test: /\.jsx?$/,
         use: 'babel-loader' 
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
       }
     ]
   }
